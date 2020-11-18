@@ -1,16 +1,5 @@
 @import "card";
 
-body {
-  font-family: Helvetica;
-}
-
-#root {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .flat-list {
   display: flex;
   flex-wrap: wrap;
@@ -22,4 +11,6 @@ body {
   border: 6px solid transparent;
 }
 
-
+.selected {
+  border: 6px dashed red;
+}
