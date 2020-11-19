@@ -1,8 +1,10 @@
 import flats from "../flats";
 
+export const SET_FLATS = 'SET_FLATS';
+
 export function setFlats() {
   return {
-    type: "SET_FLATS",
+    type: SET_FLATS,
     payload: flats
   };
 }
